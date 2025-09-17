@@ -24,6 +24,7 @@ export class AvailablePlacesComponent implements OnInit {
       .subscribe({
         next: (resData) => {
           console.log(resData.places);
+          //console.log(response.body?.places);
         },
       });
 
